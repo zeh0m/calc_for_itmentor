@@ -19,14 +19,14 @@ def calc(input_str: str):
     operator = parts[1] # переменная оператора
 
     if operator == '+': # определяем операцию
-        return str(a + b)
+        return a + b
     elif operator == '-':
-        return str(a - b)
+        return a - b
     elif operator == '*':
-        return str(a * b)
+        return a * b
     elif operator == '/':
 
-        return str(a // b)
+        return a // b
     else:
         raise Exception("Ошибка: недопустимый оператор.")
 
